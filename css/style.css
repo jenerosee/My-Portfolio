@@ -1,0 +1,336 @@
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "Sacramento";
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+    font-family: "Monserrat";
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Light.ttf);
+    font-family: "Merriweather";
+}
+@keyframes cloud1{
+    0%{
+        opacity: 0;
+        transform: translateX(95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-95vw);
+    }
+}
+@keyframes cloud2{
+    0%{
+        opacity: 0;
+        transform: translateX(-95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(95vw);
+    }
+}
+@keyframes cloud3{
+    0%{
+        opacity: 0;
+        transform: translateX(-95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(95vw);
+    }
+}
+@keyframes cloud4{
+    0%{
+        opacity: 0;
+        transform: translateX(95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-95vw);
+    }
+}
+.header-title{
+    font-family: "Sacramento";
+    font-size: 9rem;
+    color: rgb(77, 218, 223);
+}
+.header-sub{
+    font-family: "Monserrat";
+    font-size: 3rem; 
+    color: rgb(245, 248, 248);
+}
+.Info{
+    font-family: "Merriweather";
+    font-size: 1rem; 
+    color: rgb(23, 26, 26);
+}
+* {
+    margin: 0;
+    padding: 0%;
+}
+body{
+    text-align: center;
+}
+.home-header {
+    background: rgb(31, 5, 5);
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+}
+.cloud1{
+    width: 170px;
+    position: relative;
+    top: 3rem;
+    left:20rem;
+    animation: cloud1 5s infinite linear;
+}
+.cloud2{
+    width: 170px;
+    position: absolute;
+    top: 3rem;
+    left:20rem;
+    animation: cloud2 5s infinite linear;
+}
+.cloud3{
+    width: 170px;
+    position: relative;
+    left:20rem;
+    animation: cloud3 5s infinite linear;
+}
+.cloud4{
+    width: 170px;
+    position: absolute;
+    left:20rem;
+    animation: cloud4 5s infinite linear;
+}
+.home-section{
+    background: rgb(31, 5, 5);
+    height: 420vh;
+}
+.profile{
+    width:150px;
+    border-radius: 90%;
+    height: 150px;
+    position: relative;
+    top: 20px;
+}
+.Info1{
+    position: relative;
+    color: honeydew;
+    top:50px;
+    font-size: 25px;
+}
+.Info2{
+    position: relative;
+    color: honeydew;
+    top:60px;
+    font-size: 25px;
+}
+.How{
+    position: relative;
+    color: honeydew;
+    top:250px;
+    font-size: 55px;
+    font-family: "Sacramento";
+}
+.brain{
+    position: relative;
+    top: 300px;
+    width: 185px;
+}
+.Skills1{
+    position: relative;
+    color: honeydew;
+    top:330px;
+    color: honeydew;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.Skills2{
+    position: relative;
+    color: honeydew;
+    top:340px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.Skills3{
+    position: relative;
+    color: honeydew;
+    top:345px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.Skills4{
+    position: relative;
+    color: honeydew;
+    top:350px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.my{
+    position: relative;
+    color: honeydew;
+    top:500px;
+    font-size: 55px;
+    font-family: "Sacramento";
+}
+.action{
+    position: relative;
+    top: 550px;
+    width: 170px;
+}
+.first{
+    position: relative;
+    color: honeydew;
+    top:595px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.second{
+    position: relative;
+    color: honeydew;
+    top:605px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.third{
+    position: relative;
+    color: honeydew;
+    top:610px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.fourth{
+    position: relative;
+    color: honeydew;
+    top:615px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.fifth{
+    position: relative;
+    color: honeydew;
+    top:620px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.sixth{
+    position: relative;
+    color: honeydew;
+    top:625px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.Motivate{
+    position: relative;
+    color: honeydew;
+    top:750px;
+    font-size: 55px;
+    font-family: "Sacramento";
+}
+.punch{
+    position: relative;
+    top: 800px;
+    width: 195px;
+}
+.last1{
+    position: relative;
+    color: honeydew;
+    top:840px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.last2{
+    position: relative;
+    color: rgb(221, 231, 221);
+    top:845px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.last3{
+    position: relative;
+    color: honeydew;
+    top:850px;
+    font-size: 20px;
+    font-family: "Monserrat";
+}
+.last4{
+    position: relative;
+    color: honeydew;
+    top:855px;
+    font-size: 20px;
+    font-family: "Monserrat";
+    float: 0;
+}
+.Get{
+    position: relative;
+    color: honeydew;
+    top:1000px;
+    font-size: 35px;
+    font-family: "Merriweather";
+}
+.let{
+    position: relative;
+    color: honeydew;
+    top:1060px;
+    font-size: 40px;
+    font-family: "Sacramento";
+}
+.love{
+    position: relative;
+    color: honeydew;
+    top: 1050px;;
+    font-size: 40px;
+    font-family: "Sacramento";
+    float: 0;
+}
+button{
+    width: 170px;
+    height: 50px;
+    position: relative;
+    top: 1150px;
+    text-decoration-color:black ;
+    border-radius: 10%;
+    font-size: 20px;
+    color: black;
+}
+.link{
+    text-decoration: none;
+    position: relative;
+    top:55px;
+    font-size: 20px;;
+    right: 5rem;
+    font-family: "Merriweather";
+    color: rgb(128, 16, 53);
+}
+.twit{
+    text-decoration: none;
+    position: relative;
+    top:55px;
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgb(128, 16, 53);
+}
+.web{
+    text-decoration: none;
+    position: relative;
+    top:55px;
+    font-size: 20px;;
+    left:5rem;
+    font-family: "Merriweather";
+    color: rgb(128, 16, 53);
+}
+.Jenerose{
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+    font-family: "Monserrat";
+    bottom: 0;
+    color: black
+}
+.home-footer{
+    background: rgb(226, 225, 225);
+    height: 20vh;
+}
